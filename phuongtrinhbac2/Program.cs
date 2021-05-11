@@ -52,14 +52,14 @@ namespace Day3
                 try // ------------------------bat loi nhap sai ky tu khac so----------------
                 {
                     Console.WriteLine("nhap a");
-                    UserInput(ss);
-                    a = float.Parse(ss); // chuyen kieu thanh float 
+                    
+                    a = float.Parse(UserInput(ss)); // chuyen kieu thanh float 
                     Console.WriteLine("nhap b");
-                    UserInput(ss);
-                    b = float.Parse(ss);
+                    
+                    b = float.Parse(UserInput(ss));
                     Console.WriteLine("nhap c");
-                    UserInput(ss);
-                    c = float.Parse(ss);
+                   
+                    c = float.Parse( UserInput(ss));
 
                 }
                 catch (checkso exp)
